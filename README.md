@@ -1,16 +1,70 @@
-# React + Vite
+Hostel Meal Management Web Application (Frontend)
+📌 Overview
+<img width="1896" height="896" alt="Screenshot 2026-01-20 230204" src="https://github.com/user-attachments/assets/41d50af1-fe5b-4f08-b050-f71fd34ea888" />
+<img width="1905" height="913" alt="Screenshot 2026-01-20 230219" src="https://github.com/user-attachments/assets/602d19a4-4ed7-4508-aa87-c16b8e8375b2" />
+<img width="1907" height="894" alt="Screenshot 2026-01-20 230235" src="https://github.com/user-attachments/assets/b61f513d-8467-44a8-bdb1-aa2350844f3f" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Hostel Meal Management Web Application is a frontend-only Single Page Application (SPA) built using React, Material UI, and Bootstrap.
+It is designed to provide hostel students with a simple and intuitive interface to view daily and weekly mess menus, mark meal attendance, give feedback, and stay updated with mess-related announcements.
 
-Currently, two official plugins are available:
+This project focuses on modern UI design, component-based architecture, and smooth user flow, without using any backend or database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Purpose of the Application
 
-## React Compiler
+To digitally present hostel mess information in an organized way
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To help students easily check menus and meal schedules
 
-## Expanding the ESLint configuration
+To simulate real-world hostel meal management from a UI perspective
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To demonstrate frontend development skills using React and UI libraries
+
+✨ Key Features
+
+Dashboard displaying today’s meals, announcements, and quick summaries
+
+Weekly Menu with day-wise meals (breakfast, lunch, dinner)
+
+Meal Attendance Selection using checkboxes/switches
+
+Meal Feedback System with star ratings and comments
+
+Notice Board for mess-related updates
+
+Student Profile Page with static user details
+
+Light/Dark Mode for better user experience
+
+Fully Responsive Design for mobile, tablet, and desktop
+
+🧭 Application Flow
+
+User lands on the Dashboard
+
+Navigates through pages using SPA routing
+
+Views weekly menu and today’s meals
+
+Marks meal attendance
+
+Submits meal feedback
+
+Reads announcements and checks profile details
+
+🛠️ Tech Stack
+
+React – Frontend framework
+
+React Router – SPA navigation
+
+Material UI (MUI) – UI components and theming
+
+Bootstrap – Responsive layout and utility classes
+
+📂 Project Structure
+src/
+ ├── components/   // Reusable UI components
+ ├── pages/        // Application pages
+ ├── data/         // Static/dummy data
+ ├── App.jsx       // Main routing and layout
+ └── index.js      // Entry point
