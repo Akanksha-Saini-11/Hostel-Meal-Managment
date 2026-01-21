@@ -1,10 +1,10 @@
 export const dummyStudentData = {
   id: 'STU001',
-  name: 'Akansh Kumar',
+  name: 'Akanksha',
   email: 'akansh@hostelmeal.com',
   phone: '+91 9876543210',
   rollNo: 'CS-2024-001',
-  semester: '4th',
+  semester: '6th',
   mealPlan: 'Premium',
   joinDate: '2023-08-15',
   roomNo: '301-A',
